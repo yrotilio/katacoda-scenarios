@@ -29,8 +29,8 @@ Pusher une image avec la commande avec la commande  `docker push`
 
 ## L'espace disque des images
 
-`docker system df`{{execute}}
+* `docker system df`{{execute}}
 
-`docker pull nginx:alpine`{{execute}}
-`docker pull nginx`{{execute}}
-`docker pull nginx:latest`{{execute}}
+* `docker pull nginx:alpine`{{execute}}
+* `docker pull nginx`{{execute}}
+* `docker pull nginx:latest`{{execute}}
