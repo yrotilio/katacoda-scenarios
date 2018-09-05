@@ -1,5 +1,7 @@
-z# Formation Docker Alcyor - Basiques Docker
+# Formation Docker Alcyor - Basiques Docker
 
-* Mon premier container
-* Ma première image
-* Vers l'infini.. et au-delà !
+* Le binaire docker
+* Manipuler les containers
+* Déployer un serveur web
+* Manipuler les images
+* Construire sa page web personnalisée

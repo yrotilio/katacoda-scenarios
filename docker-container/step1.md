@@ -1,20 +1,21 @@
-# But
+# Liste des commandes docker
 
-Comprendre le fonctionnement du binaire docker
+`docker`{{execute}}
 
-## docker
+> Seules **10** de ces commandes seront utilisées dans **95 %** des cas
 
-Lister les commandes *Docker* avec la commande `docker`{{execute}}
+* Pour les containers
+    `run` : instancie un container à partir d'une image docker (pullée automatiquement si elle n'existe pas en local)
+    `ps` : affiche les containers locaux
+    `stop`/`kill` : arrête "gracieusement"/"brutalement" un container
+    `logs` : affiche les logs de la sortie standard d'un container
+    `exec` : exécute une commande dans un container
+* Pour les images
+    `pull` : récupére une image docker en local à partir d'un registry
+    `images` : affiche les images locales
+    `build` : construit une image à partir d'un Dockerfile
+    `push` : envoie une image docker locale vers un registry
 
-> Seules 10 de ces commandes seront utilisées dans 95 % des cas :
-> * Pour les containers
-> run : instancie un container à partir d'une image docker (pullée automatiquement si elle n'existe pas en local)
-> ps : affiche les containers locaux
-> stop/kill : arrête "gracieusement"/"brutalement" un container
-> logs : affiche les logs de la sortie standard d'un container
-> exec : exécute une commande dans un container
-> * Pour les images
-> pull : récupére une image docker en local à partir d'un registry
-> images : affiche les images locales
-> build : construit une image à partir d'un Dockerfile
-> push : envoie une image docker locale vers un registry
+## Informations sur le système
+
+`docker info`{{execute}}

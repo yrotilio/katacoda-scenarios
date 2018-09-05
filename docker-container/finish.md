@@ -1,7 +1,3 @@
-Construire une image docker.
+# Objectif atteint
 
-## Tâche
-
-Démarrer un container _intéractif_ avec la commande `docker run`
-
-`docker run -it nginx:stable`{{execute}}
+Ce scénario est une introduction aux principales commandes Docker de build et de run

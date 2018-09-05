@@ -1,6 +1,3 @@
-# But
-
-Construire une page web personnalisée
 
 ## Dockerfile
 
