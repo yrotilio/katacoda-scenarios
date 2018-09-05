@@ -1,3 +1,3 @@
 # Objectif atteint
 
-Ce scénario est une introduction aux principales commandes Docker de build et de run
+Ce scénario a fournit une introduction aux principales commandes Docker de build et de run
