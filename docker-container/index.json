@@ -1,0 +1,39 @@
+{
+    "title": "Formation Docker Alcyor",
+    "description": "Basiques Docker",
+    "difficulty": "beginner",
+    "time": "10 minutes",
+    "details": {
+      "steps": [{
+        "title": "Comprendre l'architecture docker",
+        "text": "step1.md"
+      },{
+        "title": "Fonctionnalités du binaire docker pour les containers",
+        "text": "step2.md"
+      },{
+        "title": "Démarrer un serveur web",
+        "text": "step3.md"
+      },{
+        "title": "Fonctionnalités du binaire docker pour les images",
+        "text": "step4.md"
+      },{
+        "title": "Construire une page web personnalisée",
+        "text": "step5.md"
+      }],
+      "intro": {
+        "text": "intro.md",
+        "credits": ""
+      },
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "environment": {
+      "uilayout": "terminal",
+      "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+    },
+    "backend": {
+      "imageid": "docker"
+    }
+  }
+  
