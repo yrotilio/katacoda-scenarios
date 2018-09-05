@@ -7,10 +7,11 @@ Objectif : comprendre le fonctionnement et l'utilisation du Dockerfile pour buil
 
 ## Comprendre les options du Dockerfile
 
-> Il existe 2 commandes structurelles pour la création d'un Dockerfile :
-> FROM : 
-> CMD : 
-> Le reste des commandes (RUN, COPY, ADD, ENV, EXPOSE, etc..) permet de configurer
+Il existe 2 commandes structurelles pour la création d'un Dockerfile :
+* `FROM` : 
+* `CMD` : 
+
+Le reste des commandes (`RUN`, `COPY`, `ADD`, `ENV`, `EXPOSE`, etc..) permet de réaliser des opérations à l'intérieur de l'image en vue de la configurer au niveau de l'applicatif attendu
 
 ## Construire une page web personnalisée
 
