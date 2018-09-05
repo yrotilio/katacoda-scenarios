@@ -1,4 +1,6 @@
 
+Objectif : comprendre le fonctionnement et l'utilisation du Dockerfile pour builder son application
+
 ## Dockerfile
 
 `cat Dockerfile`{{execute}}
@@ -13,6 +15,8 @@
 ## Construire une page web personnalisée
 
 `docker build -t monimage:tag`{{execute}}
+
+## Vérification du résultat
 
 `docker run -d -p 80:80 monimage:tag`{{execute}}
 

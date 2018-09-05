@@ -1,4 +1,6 @@
 
+Objectif : comprendre le fonctionnement et l'utilisation des commandes docker associées aux images (donc au BUILD)
+
 ## docker pull
 
 Récupérer une image Docker avec la commande `docker pull`

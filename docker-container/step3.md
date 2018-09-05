@@ -1,5 +1,7 @@
 
-## Comprendre les options de la commande docker run
+Objectif : comprendre le fonctionnement et l'utilisation des options de la commande docker run
+
+## Lister les options de la commande docker run
 
 `docker run --help`{{execute}}
 

@@ -1,4 +1,6 @@
 
+Objectif : comprendre le fonctionnement et l'utilisation des commandes docker associées aux containers (donc au RUN)
+
 ## docker run
 
 * Démarrer un container _intéractif_ avec la commande `docker run`
