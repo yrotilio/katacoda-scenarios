@@ -2,6 +2,8 @@ Démo Kubernetes App
 
 1. Deploy, check, expose, scale
 
+`launch.sh`{{execute T1}}
+
 `kubectl run front-web --image nginx:stable-alpine`{{execute T1}}
 
 `kubectl get all`{{execute T1}}
