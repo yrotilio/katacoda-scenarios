@@ -26,6 +26,14 @@
       },
       "finish": {
         "text": "finish.md"
+      },
+      "assets": {
+        "client": [
+          {
+            "file": "Dockerfile",
+            "target": "~/"
+          }
+        ]
       }
     },
     "environment": {

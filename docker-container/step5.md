@@ -14,9 +14,9 @@ Objectif : comprendre le fonctionnement et l'utilisation du Dockerfile pour buil
 
 ## Construire une page web personnalisée
 
-`docker build -t front_web:tag`{{execute}}
+`docker build -t front_web_alcyor:static`{{execute}}
 
 ## Vérification du résultat
 
-`docker run -d -p 80:80 front_web:tag`{{execute}}
+`docker run -d -p 80:80 front_web_alcyor:static`{{execute}}
 

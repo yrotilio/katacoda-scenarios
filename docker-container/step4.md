@@ -31,8 +31,6 @@ Objectif : comprendre le fonctionnement et l'utilisation des commandes docker as
 
 `docker system df`{{execute}}
 
-`docker pull nginx:alpine`{{execute}}
-`docker pull nginx`{{execute}}
-`docker pull nginx:latest`{{execute}}
+`docker pull nginx:alpine && docker pull nginx && docker pull nginx:latest`{{execute}}
 
 `docker system df`{{execute}}

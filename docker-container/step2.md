@@ -27,19 +27,19 @@ Objectif : comprendre le fonctionnement et l'utilisation des commandes docker as
 
 ## docker logs
 
-* Récupérer les logs de la sortie standard d'un container avec la commande `docker logs`{{execute}}
+* Récupérer les logs de la sortie standard d'un container avec la commande `docker logs`
 
-`docker logs front_web`{{copy}}
+`docker logs front_web`{{execute}}
 
 ## docker stop/kill
 
-* Arrêter un container avec la commande `docker stop`{{execute}} (SIGTERM)
+* Arrêter un container avec la commande `docker stop` (SIGTERM)
 `docker stop front_web`{{execute}}
 
 * Retrouver les containers arrêtés
 `docker ps -a`{{execute}}
 
-* Arrêter un container avec la commande `docker kill`{{execute}} (SIGKILL)
+* Arrêter un container avec la commande `docker kill` (SIGKILL)
 `docker kill front_web`{{execute}}
 
 * Retrouver les containers arrêtés
