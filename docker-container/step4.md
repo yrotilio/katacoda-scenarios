@@ -3,34 +3,36 @@ Objectif : comprendre le fonctionnement et l'utilisation des commandes docker as
 
 ## docker pull
 
-Récupérer une image Docker avec la commande `docker pull`
+* Récupérer une image Docker avec la commande `docker pull`
 
-> Liste des images publiques disponibles sur https://hub.docker.com
+> Liste des images publiques disponibles sur [dockerhub](https://hub.docker.com)
 
 `docker pull nginx:stable-alpine`{{execute}}
 
 ## docker build
 
-Construire une image basique la commande avec la commande  `docker build`
+* Construire une image basique la commande avec la commande  `docker build`
 
-`docker build`{{execute}}
+`docker build --help`{{execute}}
 
 ## docker images
 
-Lister les images docker disponibles en **local** avec la commande `docker images`
+* Lister les images docker disponibles en **local** avec la commande `docker images`
 
 `docker images`{{execute}}
 
 ## docker push
 
-Pusher une image avec la commande avec la commande  `docker push` 
+* Pusher une image avec la commande avec la commande  `docker push` 
 
-`docker push`{{execute}}
+`docker push --help`{{execute}}
 
 ## L'espace disque des images
 
-* `docker system df`{{execute}}
+`docker system df`{{execute}}
 
-* `docker pull nginx:alpine`{{execute}}
-* `docker pull nginx`{{execute}}
-* `docker pull nginx:latest`{{execute}}
+`docker pull nginx:alpine`{{execute}}
+`docker pull nginx`{{execute}}
+`docker pull nginx:latest`{{execute}}
+
+`docker system df`{{execute}}

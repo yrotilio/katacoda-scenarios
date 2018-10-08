@@ -9,24 +9,42 @@ Objectif : comprendre le fonctionnement et l'utilisation des commandes docker as
 
 * Démarrer un container _daemon_ avec la commande `docker run`
 
-`docker run -d nginx:stable-alpine`{{execute}}
+`docker run --name front_web -d nginx:stable-alpine`{{execute}}
 
 ## docker ps
 
+* Lister les containers en cours d'exécution avec `docker ps`
+
 `docker ps`{{execute}}
+
+* Noter les différences avec un `ps`
 
 `ps -ef`{{execute}}
 
 ## docker exec
 
-`docker exec`{{execute}}
+* Lancer une commande dans un container en cours d'exécution avec `docker exec`{{execute}}
+
+`docker exec -it front_web sh`{{copy}}
+
+`docker exec front_web cat /var/log/messages`{{copy}}
 
 ## docker logs
 
-`docker logs`{{execute}}
+* Récupérer les logs de la sortie standard d'un container avec la commande `docker logs`{{execute}}
+
+`docker logs front_web`{{copy}}
 
 ## docker stop/kill
 
-`docker stop`{{execute}}
+* Arrêter un container avec la commande `docker stop`{{execute}} (SIGTERM)
+`docker stop front_web`{{execute}}
 
-`docker ps`{{execute}}
+* Retrouver les containers arrêtés
+`docker ps -a`{{execute}}
+
+* Arrêter un container avec la commande `docker kill`{{execute}} (SIGKILL)
+`docker kill front_web`{{execute}}
+
+* Retrouver les containers arrêtés
+`docker ps -a`{{execute}}
