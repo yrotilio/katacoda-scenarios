@@ -17,13 +17,13 @@ Parmis toutes les instructions d'un Dockerfile, 2 commandes sont structurelles e
 
 ## Construire une page web personnalisée
 
-`docker build -t front_web_alcyor:static`{{execute}}
+`docker build -t front_web_alcyor:static .`{{execute}}
 
 ## Vérification du résultat
 
 `docker run -d -p 8080:80 front_web_alcyor:static`{{execute}}
 
-Tester l'accès au serveur web sur le port 8080 avec ce [lien](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/)
+Tester l'accès au serveur web sur le port 8080 avec ce [lien](https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/)
 
 ## Vérification du contenu de l'image
 

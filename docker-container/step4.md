@@ -27,10 +27,14 @@ Objectif : comprendre le fonctionnement et l'utilisation des commandes docker as
 
 `docker push --help`{{execute}}
 
-## L'espace disque des images
+## L'espace disque des images et les tags
 
 `docker system df`{{execute}}
 
-`docker pull nginx:alpine && docker pull nginx && docker pull nginx:latest`{{execute}}
+`docker images`{{execute}}
 
-`docker system df`{{execute}}
+`docker pull nginx`{{execute}}
+
+`docker pull nginx:latest`{{execute}}
+
+`docker pull nginx:stable`{{execute}}
