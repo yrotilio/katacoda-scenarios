@@ -6,7 +6,8 @@
     "details": {
       "steps": [{
         "title": "Kubernetes",
-        "text": "step1.md"
+        "text": "step1.md",
+        "courseData": "launch.sh"
       }],
       "assets": {
         "client": [
