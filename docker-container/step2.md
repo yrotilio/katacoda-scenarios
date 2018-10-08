@@ -34,13 +34,17 @@ Objectif : comprendre le fonctionnement et l'utilisation des commandes docker as
 ## docker stop/kill
 
 * Arrêter un container avec la commande `docker stop` (SIGTERM)
+
 `docker stop front_web`{{execute}}
 
 * Retrouver les containers arrêtés
+
 `docker ps -a`{{execute}}
 
 * Arrêter un container avec la commande `docker kill` (SIGKILL)
+
 `docker kill front_web`{{execute}}
 
 * Retrouver les containers arrêtés
+
 `docker ps -a`{{execute}}

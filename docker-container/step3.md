@@ -18,4 +18,4 @@ Objectif : comprendre le fonctionnement et l'utilisation des options de la comma
 
 `docker run -d -p 80:80 nginx:stable-alpine`{{execute}}
 
-Tester l'accès au server web sur le port 80
+Tester l'accès au serveur web sur le port 80 avec ce [lien](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/)

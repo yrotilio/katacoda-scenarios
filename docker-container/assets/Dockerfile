@@ -1,4 +1,4 @@
 FROM nginx:stable-alpine
 
-CMD wget http://www.alcyor.fr -o /usr/share/nginx/html/index.html
+RUN wget http://www.alcyor.fr -O /usr/share/nginx/html/index.html
 
