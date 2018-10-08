@@ -5,7 +5,7 @@ Objectif : comprendre le fonctionnement et l'utilisation des commandes docker as
 
 * Démarrer un container _intéractif_ avec la commande `docker run`
 
-`docker run -it nginx:stable-alpine`{{execute}}
+`docker run -it httpd:alpine`{{execute}}
 
 * Démarrer un container _daemon_ avec la commande `docker run`
 
@@ -17,17 +17,13 @@ Objectif : comprendre le fonctionnement et l'utilisation des commandes docker as
 
 `docker ps`{{execute}}
 
-* Noter les différences avec un `ps`
-
-`ps -ef`{{execute}}
-
 ## docker exec
 
-* Lancer une commande dans un container en cours d'exécution avec `docker exec`{{execute}}
+* Lancer une commande dans un container en cours d'exécution avec `docker exec`
 
-`docker exec -it front_web sh`{{copy}}
+`docker exec -it front_web sh`{{execute}}
 
-`docker exec front_web cat /var/log/messages`{{copy}}
+`docker exec front_web ls -lrt /var/log/nginx/`{{execute}}
 
 ## docker logs
 
